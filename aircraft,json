@@ -1,0 +1,8 @@
+{
+    "Make and Model": "Cessna Skyhawk 172P",
+    "Category": "Normal",
+    "G-loads": ["+3.8", "-1.52"],
+    "Engine": "Ayco Lycoming 0-320-D2J  A/C 160 B horse power @ 2700 RPM",
+    "Oil": {"Min": "5qts", "Max": "7qts", "Grade": {"New": "MIL-L-6082", "After break-in": "MIL-L-22851 ashless"}},
+    "Fuel": {}
+}
