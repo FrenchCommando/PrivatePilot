@@ -1,26 +1,31 @@
 [
     {
-        "Anti-Authority": {
+        "Anti-Authority": 
+        {
             "Don't tell me.": "Follow the rules. They are usually right."
         }
     },
     {
-        "Impulsivity": {
+        "Impulsivity": 
+        {
             "Do it quickly.": "Not so fast. Think first."
         }
     },
     {
-        "Invulnerability": {
+        "Invulnerability": 
+        {
             "It won't happen to me.": "It could happen to me."
         }
     },
     {
-        "Macho": {
+        "Macho": 
+        {
             "I can do it.": "Taking chances is foolish."
         }
     },
     {
-        "Resignation": {
+        "Resignation": 
+        {
             "What's the use.": "I'm not helpless. I can make a difference."
         }
     }

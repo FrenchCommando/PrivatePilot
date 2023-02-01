@@ -1,0 +1,48 @@
+{
+    "weather minumums": {
+        "Local": {
+            "Pattern": ["3M", "2000ceiling"],
+            "PracticeArea": ["5M", "3000ceiling"],
+            "Winds": ["20knots surface including gusts", "10knots crosswind"]
+        },
+        "CrossCountry": [
+            "7M",
+            "3000ceiling",
+            "20knots",
+            "10knots crosswind",
+            "8004862368",
+            "9735754800"
+        ]
+    },
+    "altitude": {
+        "cruise": {"populated": 1000, "non-populated": 500},
+        "maneuvers": 1500,
+        "emergency": 1500
+    },
+    "practice area": [
+        "311 Sparta",
+        "Delaware",
+        "252 Sparta",
+        "001 Robbinsville"
+    ],
+    "Spins": {
+        "Signs": [
+            "excessive back pressure",
+            "nose high attitude",
+            "low airspeed",
+            "quietness",
+            "controls mushy - less effective"
+        ],
+        "Phases": [
+            "Entry", "Incipient", "Development", "Recovery"
+        ],
+        "Recovery": [
+            "Power idle",
+            "Aileron neutral",
+            "Opposite Rudder",
+            "Elevator forward of neutral",
+            "neutralize rudder after spins stops",
+            "elevator for level flight"
+        ]
+    }
+}
