@@ -1,0 +1,42 @@
+{
+    "Slow Flight": [
+        "1500RPM",
+        "airspeed below 85 knots",
+        "flaps10-20-30",
+        "power for altitude",
+        {"recovery": [
+            "max power", 
+            "carb heat", 
+            "flaps10", 
+            "airspeed60", 
+            "flaps up"
+            ]}
+    ],
+    "Power-Off Stalls": [
+        "1500RPM",
+        "airspeed below 85 knots",
+        "flaps10-20-30",
+        "airspeed60",
+        "power idle",
+        "glide at 60knots for 3 seconds",
+        "pitch above horizon",
+        {"recovery": [
+            "pitch just below level flight", 
+            "max power", 
+            "pitch level flight",
+            "Carb cold",
+            "Flaps10",
+            "positive rate of climb - flaps up"
+            ]}
+    ],
+    "Power-On Stalls": [
+        "power1500",
+        "airspeed60",
+        "pitch 15deg above horizon - add power 2000-2200RPM (65%)",
+        {"recovery": [
+            "pitch down to level flight", 
+            "max power", 
+            "carb cold"
+            ]}
+    ]
+}

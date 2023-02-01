@@ -1,0 +1,35 @@
+{
+  "Preflight": [
+    "Notams",
+    "Weather",
+    "Knowns ATC Delays (IFR)",
+    "Runway lengths",
+    "Alternate",
+    "Fuel",
+    "Take-off/ Landing Performance"
+  ],
+  "Equipment for VFR flight day": [
+    "Tachometer",
+    "Oil pressure",
+    "Magnetic compass",
+    "Airspeed Indicator",
+    "Temperature Gauge",
+    "Oil Temperature",
+    "Safety belts",
+    "Altimeter",
+    "Fuel gauge",
+    "Landing gear position light (Green-Amber)",
+    "Anti-collision light",
+    "Manifold pressure gauge",
+    "ELT"
+  ],
+  "Maintenance": [
+    "Annual / Airworthiness Directives - Registration 3 years",
+    "VOR - 30 days, 6 degrees",
+    "Instruction 100 hours",
+    "Altimeter - 24 calendar months",
+    "Transponder - 24 calendar months",
+    "ELT - 12 calendar months (Battery, 1hr or 1/2 life)",
+    "Static - 24 calendar months"
+  ]
+}
