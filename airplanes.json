@@ -1,0 +1,51 @@
+{
+    "Inspections": {
+        "12 calendar months": ["Annual", "EmergencyLocatorTransmitter"],
+        "24 calendar months": ["Transpoonder", "Altimeter - Static for IFR"],
+        "100 hours": ["Instruction", "carry a person for hire other than crew"]
+    },
+    "EquipmentVFR": {
+        "FlightInstruments": [
+            "Airspeed Indicator", "Altimeter", "MagneticCompass"
+        ],
+        "Engine and System Monitoring Indicators": [
+            "Tachometer",
+            "Manifold Pressure Gauge (constant-speed propeller)",
+            "Fuel Gauge",
+            "Oil Temperature Gauge (air-cooled engine)",
+            "Oil Pressure Gauge",
+            "Temperature Gauge (liguid-cooler engine)",
+            "Landing Gear Position Indicator (retractable landing gear)"
+        ],
+        "Safety": [
+            "Red or White Anticollision Light System",
+            "Seat Belts",
+            "Front-Seat Shoulder Harness",
+            "Emergency Locator Transmitter",
+            "For hire over water and beyond gliding distance from shore - Flotation Gear, Signaling Device"
+        ],
+        "Additional Night Requirements": [
+            "Position Lights",
+            "Adequate Source of Electrical Power",
+            "Spare Fuses (within reach of the pilot if the aircraft uses fuses)",
+            "Landing Light (if for hire)"
+        ]
+    },
+    "Inoperative": [
+        "VFR day type certificate requirements prescribed in the airworthiness certification regulations",
+        "FAR 91.205 for the specific kind of flight operation or by other flight rules for the specific kind of flight to be conducted",
+        "The aircraft's equipment list or kinds of operations equipment list",
+        "Airworthiness Directives"
+    ],
+    "Four-Stroke Operating Cycle": [
+        "Intake", "Compression", "Power", "Exhaust"
+    ],
+    "Carburetor Ice": ["Humidity80 21C(70F) up to Humidity50 38C(100F)"],
+    "Full authority digital engine control": "FADEC",
+    "AtmosphericPressure": [
+        "14.7 pounds per square inch - half at 18000 feet",
+        "SeaLevel Standard: 15C(59F) - 14.7lb/in2 - 29.92inHg - 1013.2millibars",
+        "Lapse: 1000 feet - 1.00 inHg - 2C(3.5F)"
+    ],
+    "Standard Rate Turn": "3 degrees per second - 360 degrees in 2 minutes"
+}

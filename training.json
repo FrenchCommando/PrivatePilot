@@ -35,7 +35,8 @@
             "Rotorcraft": ["helicopter", "gyroplane"], 
             "Lighter-than-air": ["airship", "balloon"]
         },
-        "Make-Model" : ["Cessna172", "Hughes500", "Boeing747"]
+        "Make-Model" : ["Cessna172", "Hughes500", "Boeing747"],
+        "Type": ["Turbojet", "12500MGTOW-maximumgrosstakeoffweight"]
     },
     "Aircraft certification": {"Category": [
         "normal", "utility", "commuter", "transport", "restricted(agricultural/bombers)", "limited(military)", "provisional(interim)", "experimental(amateur/racing/research)" 
