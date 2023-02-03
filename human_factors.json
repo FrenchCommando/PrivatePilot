@@ -1,0 +1,97 @@
+{
+    "Single-Pilot Resource Management": {
+        "Crew Resource management": "",
+        "Aeronautical decision making": [
+            "Detect the fact that a change has occurred",
+            "Estimate the need to counter or react to the change",
+            "Choose a desirable outcome for the success of the flight",
+            "Identify actions which could successfully control the change",
+            "Do the necessary action to adapt to the change",
+            "Evaluate the effect of the action"
+        ],
+        "Self-Assessment": [
+            "Illness", 
+            "Medication", 
+            "Stress", 
+            "Alcohol", 
+            "Fatigue", 
+            "Eating", 
+            "Emotion"
+        ],
+        "Hazardous Attitudes": {
+            "Anti-Authority":
+            {
+                "Don't tell me.": "Follow the rules. They are usually right."
+            },
+            "Impulsivity": 
+            {
+                "Do it quickly.": "Not so fast. Think first."
+            },
+            "Invulnerability": 
+            {
+                "It won't happen to me.": "It could happen to me."
+            },
+            "Macho": 
+            {
+                "I can do it.": "Taking chances is foolish."
+            },
+            "Resignation": 
+            {
+                "What's the use.": "I'm not helpless. I can make a difference."
+            }
+        },
+        "Risk Management": [[
+            "Pilot",
+            "Aircraft",
+            "enVironment",
+            "External Pressures"
+        ],
+        [
+            "Pilot",
+            "Pasengers",
+            "Plane",
+            "Programming",
+            "Plan"
+        ]],
+        "Briefings": {
+            "Passenger": [
+                "Safety Belts",
+                "Air Vents",
+                "Fire Extinguisher",
+                "Egress - Emergency",
+                "Traffic - Talking",
+                "Your questions"
+            ],
+            "Takeoff": [
+                "Wind direction and velocity",
+                "Runway length",
+                "Takeoff Distance",
+                "Initial Heading",
+                "Initial altitute",
+                "Takeoff climb speeds",
+                "Departure procedures",
+                "Emergency plan engine failure after takeoff"
+            ],
+            "Landing": [
+                "Airport information and weather",
+                "Active runway",
+                "Terrain - Obstacles",
+                "Airport elevation - pattern altitude",
+                "Traffic pattern entry"
+            ]
+        },
+        "Controlled flight into terrain": "",
+        "All": [
+            "Aeronautical decision making",
+            "Risk Management",
+            "Task Management",
+            "Situational Awareness",
+            "Controlled flight into terrain awareness",
+            "Automation management"
+        ]
+    },
+    "Aviation Physiology": {
+        "Scuba Diving": "wait before ascending to 8000feet MSL",
+        "Alcohol": ".04 percent by weight in the blood - 8 hours"
+    }
+}
