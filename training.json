@@ -1,0 +1,62 @@
+{
+    "Medical certificate": [
+        {
+            "Third Class": "60 calendar months under 40 years old - 24 calendar months otherwise",
+            "Airline Transport": "First-class medical 12 months under 40 years - 6 months otherwise",
+            "Commercial Certificate": "First or second class - 12 months"
+        },
+        {
+            "BasicMed": [
+                "Held Medical before and not suspended",
+                "Noncommercial flight operations with driver's license",
+                "6 occupants including pilot",
+                "certificated takeoff weight of 6000pounds",
+                "Below 18000 feet MSL",
+                "250 knots",
+                "in the US",
+                "not compensation or hire",
+                "online course with AOPA within 24 calendar months",
+                "comprehensive medical exam within 48 months",
+                "certify that under care and treatment of a physician for any diagnosed medical condition that could impact your ability to fly and that you are medically fit to fly",
+                "agree to a National Driver Register check"
+            ]
+        }
+    ],
+    "Private Pilot": [
+        "17 years old",
+        "knowledge test - 70% passing - 24 calendar months",
+        "Part 61 - 40 hours flight including 20 hours of dual and 10 hours of solo",
+        "Part 141 - 35 hours of flight training including 20 hours of dual instruction and 5 hours of solo"
+    ],
+    "Pilot certification": {
+        "Category": ["Airplane", "Rotorcraft", "Glider", "Lighter-than-air", "Powered-lift"],
+        "Class": {
+            "Airplane": ["single-engine land", "single-engine sea", "multi-engine land", "multi-engine sea"],
+            "Rotorcraft": ["helicopter", "gyroplane"], 
+            "Lighter-than-air": ["airship", "balloon"]
+        },
+        "Make-Model" : ["Cessna172", "Hughes500", "Boeing747"]
+    },
+    "Aircraft certification": {"Category": [
+        "normal", "utility", "commuter", "transport", "restricted(agricultural/bombers)", "limited(military)", "provisional(interim)", "experimental(amateur/racing/research)" 
+    ]},
+    "Currency": {
+        "flight review": "24 calendar months - one hour ground - one hour flight - endorse logbook",
+        "passengers": [
+            "3 takeoff and landings - same category and class (and type) - 90 days",
+            "night (one hour after sunset - one hour before sunrise) - that period and full stop",
+
+        ]
+    },
+    "High-performance airplane": "more than 200 horse power",
+    "Complex airplane": "retractable landing gear - flaps -(and) controllable-pitch propeller",
+    "Tailwheel airplane": "endorsement normal crosswind takeoff landing, wheel landing, go-around",
+    "Instrument rating": "40hours instrument flight time - knowledge test - practical test",
+    "Helicopter": "40 hour flight including 20 hours dual 10 hours solo - practical test",
+    "Gyroplane": "20 hours dual - 10 hours solo - practical test",
+    "Glider": "40h in heavier-than-air - 3 hours training in glider - 10 solo flights - no knowledge if hold a powered category rating",
+    "Balloon": "10hours of training including 6 training flights - practical test",
+    "Commercial": "190-250 hours of flight time including 100hours of PIC, 50hours cross-country - 10hours in retractable landing gear, flaps and controllable pitch propeller - knowledge test - practical test on precision flight maneuvers",
+    "Airline Transport Pilot": "23 years old, 1500hours flight including 250hours PIC, 500hours cross-country, 100hours night, 75hours intruments",
+    "Sport pilot": ["daylight - light single-engine - one passenger - communication with ATC", "Light sport aircraft: stall speed 45knots or less - max speed 120 knots or less - fixed landing gear - fixed-pitch or ground-adjustable propeller - landplane weight 1320pounds - seaplane weight 1430pounds"]
+}
