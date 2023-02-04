@@ -1,0 +1,76 @@
+{
+    "Flight Planning": {
+        "Prepare a Flight Overview": [
+            "Flight Feasibility",
+            "Date and Time",
+            "Flgiht Planning Materials",
+            "Training and Experience"
+        ],
+        "Develop the Route": [
+            "Airspace Requirements",
+            "Terrain and Obstacles",
+            "Navaids",
+            "Diversion Options",
+            "Special Use Airspace",
+            "Checkpoints",
+            "Cruise Altitude",
+            "Distance and Time Enroute"
+        ],
+        "Obtain a Weather Briefing": [
+            "Information for your Flight",
+            "Weather Conditions for Your Flight"
+        ],
+        "Complete the Nav Log": [
+            "Performance Calculations",
+            "Checkpoints",
+            "Leg Navigation and Performance Data",
+            "Airport Information"
+        ],
+        "File the Flight Plan": [
+            "Aircraft Type and Special Equipment",
+            "Cruising Altitude",
+            "Route of Flight",
+            "Departure Time",
+            "Time Enroute"
+        ],
+        "Perform Preflight Tasks": [
+            "Self-Assessment",
+            "Maintenance Logbooks",
+            "Preflight Inspection"
+        ]
+    },
+    "The Flight": {
+        "Predeparture": [
+            "Heading - Altitude",
+            "Nav Frequencies",
+            "Comm Frequencies",
+            "GPS Flight Plan",
+            "Course Selector",
+            "Takeoff Briefing",
+            "Record Takeoff Time"
+        ],
+        "Climb and Initial Cruise": [
+            "Intercept the Course",
+            "Activate Flight Plan",
+            "Navigate to First Checkpoint"
+        ],
+        "Enroute": [
+            "Monitor Flight Progress",
+            "Contact ATC for Airspace Transition",
+            "Create Revised Flight Plan"
+        ],
+        "Descent": [
+            "Comms - Navs",
+            "Plan"
+        ],
+        "Before Approach and Landing": [
+            "Contact the Control Tower",
+            "Perform a Before Landing Briefing"
+        ],
+        "Postflight": [
+            "Taxi to Parking",
+            "Close your Flight Plan",
+            "Evaluate the Flight"
+        ]
+    }
+}

@@ -93,5 +93,24 @@
     "Aviation Physiology": {
         "Scuba Diving": "wait before ascending to 8000feet MSL",
         "Alcohol": ".04 percent by weight in the blood - 8 hours"
-    }
+    },
+    "National Transportation Safety Board": {
+        "Accident": "Death or Serious Injury",
+        "incident": "Other than Accident - affects safety of operations"
+    },
+    "NASA": "Aviation Safety reporting System",
+    "OperationalPitfall": [
+        "Peer Pressure",
+        "Mind-Set",
+        "Get-There-Itis",
+        "Duck-Under Syndrome",
+        "Scud Running",
+        "Continuing VFR Flight into Instrument Conditions",
+        "Getting Behind the Aircraft",
+        "Loss of Situational Awareness",
+        "Operating without Adequate Fuel Reserves",
+        "Descent Below the Minimum Enroute Altitude",
+        "Flying Outside the Envelope",
+        "Neglect of Flight Planning, Preflight Inspections, and Checklists"
+    ]
 }
