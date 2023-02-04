@@ -1,0 +1,24 @@
+{
+    "Forces": ["Lift", "Weight", "Thrust", "Drag"],
+    "Airfoil": ["Leading Edge", "Trailing Edge", "Upwash", "Downwash"],
+    "Angle of Attack": ["Camber", "Chord Line", "Relative Wind"],
+    "Stalls": ["Coefficient of lift", "Critical angle of Attack"],
+    "Wing": ["Aspect Ratio", "Wing Area", {"Planform": ["Elliptical", "Rectangular", "Tapering", "Sweptback"]}, "Angle of Incidence", "Wing Twist", "Stall Strips"],
+    "Flaps": ["Plain", "Split", "Slotted", "Fowler"],
+    "Leading Edge": ["Flap", "Moveable Slat", "Fixed Slot", "Spoiler"],
+    "Drag": {"Parasite": ["Form", "Interference", "Skin Friction"], "Induced": ["Wingtip vortices"]},
+    "Ground Effect": "One Wingspan",
+    "Stability": [
+        ["Positive Static Stability", "Positive Dynamic Stability"],
+        ["Maneuverability", "Controllability"],
+        ["Longitudinal", "Lateral", "Vertical"],
+        ["Tail-Down Force", "Canard"],
+        ["Lateral Stability", "Dihedral", "Sweepback", "Keel Effect"],
+        ["Dutch Roll", "Spiral Instability"],
+        ["Power-off Stalls", "Power-on Stalls", "Accelerated Stalls", "Crossed-Controll Stall", "Secondary Stall"],
+        ["Erect Spin", "Inverted Spins", "Flat Spin"],
+        ["Incipient Spin", "Fully Developed Spin", "Recovery"],
+        ["Torque", "Gyroscopic precession", "Asymmetrical Thrust - P-Factor", "Spiraling Slipstream"],
+        ["Best Glide Speed", "Glide Ratio", "Maximum Lift-to-Drag Ratio", "Glide Angle"]
+    ]
+}
