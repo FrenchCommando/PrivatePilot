@@ -1,0 +1,30 @@
+{
+    "Vision": [
+        "Rods", "Cones", "Retina", "Fovea", "VisualPurple - Rhodopsin"
+    ],
+    "Illusions": [
+        "Autokinesis", "False Horizon", "Landing Illusions", "Flicker Vertigo"
+    ],
+    "Disorientation":[
+        "Kinesthetic sense",
+        "Spatial Disorientation - Vestibular Disorientation",
+        "Semicircular Canals - Otoliths - Utricle - Saccule - Hair cells - Cupula",
+        "Coriolis Illusion - Moving when turning", 
+        "Graveyard Spiral - Feeling wings level when spiraling", 
+        "Leans - rapid correction to the bank", 
+        "Somatogravic Illusion - acceleration feels like nose high", 
+        "Inversion Illusion - Climb to straight-and-level"
+    ],
+    "Hypoxia": [
+        "Hypoxic Hypoxia - high altitude",
+        "Hypemic Hypoxia - Carbon Monoxide, Blood Donation",
+        "Stagnant Hypoxia - Blood flow",
+        "Histotoxic Hypoxia - Alcohol"
+    ],
+    "Supplemental Oxygen": [
+        "Above 10000MSL day - 5000MSL night",
+        "12500-14000 pilot after 30 minutes",
+        "14000-15000 continuously",
+        "15000+ pilot and occupants"
+    ]
+}
