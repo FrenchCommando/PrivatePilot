@@ -20,5 +20,15 @@
         ["Incipient Spin", "Fully Developed Spin", "Recovery"],
         ["Torque", "Gyroscopic precession", "Asymmetrical Thrust - P-Factor", "Spiraling Slipstream"],
         ["Best Glide Speed", "Glide Ratio", "Maximum Lift-to-Drag Ratio", "Glide Angle"]
+    ],
+    "LoadFactor": {
+        "Normal": "+3.8, -1.52",
+        "Utility": "+4.4, -1.76",
+        "Aerobatic": "+6, -3"
+    },
+    "Formulae": [
+        "LoadFactor = 1/cos(bank)",
+        "StallSpeed ~ sqrt(load)",
+        "Lift ~ airspeed ** 2"
     ]
 }
