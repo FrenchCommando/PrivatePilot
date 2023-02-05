@@ -1,0 +1,17 @@
+{
+    "Visual Scanning": [
+        "Empty field myopia", "Blind Spots"
+    ],
+    "Lights": [
+        "Operation Lights On", "Anticollosion light unless impair vision of others"
+    ],
+    "Right-of-way": ["Balloon", "Glider", "Refueling", "AirShip", "Airplane", "Rotorcraft"],
+    "Altitudes": [
+        "Congested Area - 1000ft above - 2000 ft radius",
+        "Uncongested - 500ft AGL",
+        "Sparsely Populated - 500ft from anything"
+    ],
+    "Taxi in Wind": [
+        "HeadWind: Neutral elevator for tricycleGear, elevatorUp for tailwheel"
+    ]
+}

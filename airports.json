@@ -1,0 +1,36 @@
+{
+    "WindDirection": [
+        "Windsock", "wind tee", "Tetrahedron"
+    ],
+    "Uncontrolled": "Overfly traffic pattern 500ft to 100ft to observe",
+    "Runway Markings": ["Displaced threshold", "blast pad / stopway area"],
+    "International Civil Aviation Organisation": "ICAO",
+    "Signs": ["Direction", "Mandatory Instruction", "Location", "Runway Distance Remaining", "Information", "Destination", "ILS"],
+    "Land And Hold Short Operations": ["Available landing distance"],
+    "Beacon": {
+        "Civilian Land": "white-green",
+        "Water Airport": "white-yellow",
+        "Military": "white-white-green",
+        "Heliport": "white-yellow-green"
+    },
+    "Glide Slope": [
+        "Visual Approach Slope Indicator",
+        "Pulsating Visual Approach Slope Indicator",
+        "Precision Approach Path Indicator",
+        "Approach Lighting Systems"
+    ],
+    "Runway Lights": [
+        "Runway Edge light - High Intensity Runway Lights - Medium Intensity Runway Lights - Low Intensity Runway Lights",
+        "Half of runway or last 2000 feet - yellow",
+        "Displaced threshold - set of green lights on each side - Red from the other side",
+        "NotDisplaced Threshold - One row of green lights - Red from the other side",
+        "Runway End Identifier Lights - high intensity white strobe on each side",
+        "Runway Centerline lighting system - RCLS - white until at least 3000 feet - from 3000-1000 alternating red and white - last 1000 red",
+        "Touchdown zone lighting - TDZL - transverse light bars on either side of the centerline from 100 feet to 3000 or midpoint",
+        "Taxiway lead-off - alternating green and yellow",
+        "Taxiway edge - blue Omnidirectional",
+        "Taxiway centerline - green",
+        "Pilot controlled - 15 minutes - 7 keys maximum - 5 key medium - 3 jey low intensity"
+    ],
+    "1-866-GA-SECURE": "1-866-427-3287"
+}
