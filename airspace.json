@@ -1,0 +1,44 @@
+{
+    "Uncontrolled - Class G": {
+        "Altitude": "Floor to 700ft or 1200ft (up to 14500MSL, 1500AGL)",
+        "Visibility": {
+            "under 1200AGL - below 10000MSL": "day 1SM - night 3SM",
+            "Above 10000MSL, 1200AGL": "5SM" 
+        },
+        "Clouds": {
+            "below 1200AGL": "day clear of clouds - night 500below, 1000above, 2000horizontal",
+            "below 10000MSL above 1200AGL": "500below, 1000above, 2000horizontal",
+            "above 10000MSL, above 1200AGL": "1000below, 1000above, 1SM horizontal"
+        },
+        "Qualifications": "Student Pilot",
+        "Equipment": "None",
+        "ATC": "On request - workload permitting"
+    },
+    "Controlled":{
+        "Transponder": {
+            "Altitude encoding": "Mode C",
+            "With ADSB": "Require Mode S",
+            "Automatic Dependent Surveillance-Broadcast": "ADS-B",
+            "ModeC and ADS-B": [
+                "Class A", "Class B", "Within 30NM of Class B primary airport", "In and Above Class C", 
+                "Above 10000MSL - except 2500AGL - 48 states, even uncontrolled"
+            ]
+        },
+        "ClassE": {
+            "FederalAirways - Victor Airways": ["e.g. V4-108", "1200AGL to 18000AGL", "8NM wide"],
+            "Colored Airways": ["Based on LF/MF navaids or NDB", "Only Alaska and coastal North Carolina"],
+            "Floor": "Surface or 700AGL or 1200AGL",
+            "High Altitude": "From 14500MSL to 17999MSL - and Above FL600 - 48 contiguous states, Alaska, DS, 12NM from coastlines",
+            "Visibility": ["3SM below 10000MSL", "5SM avobe 10000MSL"],
+            "Clouds": ["500below, 1000above, 2000horizontal - below 10000MSL", "1000below, 1000above, 1SM horizontal - above 10000MSL"]
+        },
+        "ClassD": {
+            "Size": "Radius 4NM - 2500AGL",
+            "Visibility": "3SM",
+            "Clouds": "500below, 1000above, 2000horizontal",
+            "Entry": "RadioCommunication",
+            "Part-Time": "Becomes e or combination of E and G",
+            "Satellite airport": "non-towered, contact primary airport's control tower as soon as practical after take-off"
+        }
+    }
+}
