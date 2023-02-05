@@ -1,0 +1,23 @@
+{
+    "Special Conservation": "2000AGL",
+    "VFR terminal area charts": "TACs - 1:250000",
+    "Mercator Projection": "Not Lambert",
+    "Sectional": "1:500000",
+    "Airport with control tower": "blue - otherwise magenta",
+    "Tick around airport": "Fuel",
+    "Open circle": "No Hard surface runway",
+    "Runway layout inside circle": "1500 - 8069 feet length",
+    "Sea Anchor": "Seaplane base",
+    "Runway loayout no circle": "At least one above 8069 feet",
+    "Star": "Beacon",
+    "Military Airport": "Airforce Base - AFB",
+    "Private airport": "R in open circle",
+    "Common Traffic Advisory Frequency": "CTAF",
+    "Automatic Terminal Information Service": "ATIS",
+    "VORTAC": [
+        "H - Hazardous Inflight Weather Advisory Service",
+        "line - no voice communication",
+        "frequency R - different frequency to transmis"
+    ],
+    "Dot circle": "Nondirectional Beacon"
+}
