@@ -39,6 +39,62 @@
             "Entry": "RadioCommunication",
             "Part-Time": "Becomes e or combination of E and G",
             "Satellite airport": "non-towered, contact primary airport's control tower as soon as practical after take-off"
+        },
+        "ClassC": {
+            "Size": ["Radius 5NM - 4000AGL", "Radius 10NM - 1200, 4000AGL", "Outer Area - 20NM - radar services not mandatory"],
+            "Visibility/Clouds": "Same As ClassD"
+        },
+        "ClassB": {
+            "Visibility/Clouds": "3SM - Clear of Clouds",
+            "ModeC ADS-B": "30NM - 10000MSL",
+            "Requirements": "Private Pilot Certificate - Student Pilot with endorsement",
+            "VFR flyway": "Congested Areas",
+            "VFR Corridor": "Fly through class B without clearance"
+        },
+        "ClassA": {
+            "Altitude": "18000MSL, FL600 - Continuous, Alaska + 12NM",
+            "Rating": "IFR Plan and Clearance",
+            "Jet Routes": "Up to FL450",
+            "Altimeter Settings": "29.92inHg"
         }
-    }
+    },
+    "Special VFR": {
+        "VFR minimums": "3NM, cloud ceiling 1000AGL",
+        "Special Clearance": "1NM, clear of clouds",
+        "DaytimeOnly": "Exception between sunset and sunrise for current instrument rating, aircraft equipped with instrument flight"
+    },
+    "Airspeed Limitations": [
+        "Below 10000MSL, 250knots indicated",
+        "200knots: underlying class B and VFR corridor, at or below 2500AGL within 4NM for class C or D"
+    ],
+    "Special Use Airspace": {
+        "Alert Area": ["Parachute", "Glider", "Student pilot"],
+        "Military Operations Area": "Caution",
+        "Warning Area": "3NM from coast - gunnery, guided missiles",
+        "Restricted Areas": "Artillery firing, aerial gunnery, guided missile - permission but be granted by controlling agency",
+        "Prohibited Areas": "P-xx, may not operate without permission",
+        "Controlled Firing Area": "Operations are discontinued when aircraft is spotted"
+    },
+    "National Security Areas": "Avoid",
+    "Local Airport Advisory": "Alaska - 10NM",
+    "Military Training Routes": "Below 10000MSL, speed >250knots - VR/IRxxx below 1500AGL, VR/IRxxx above 1500AGL- Caution",
+    "Terminal Radar Service Areas": "ClassD and E, non rules",
+    "Temporary Flight Restrictions": [
+        "Disaster", "Hazard", "Space Flight", "VIP", "Shows, Sporting - 3000AGL, 3NM, 30000people, +/- 1hour"
+    ],
+    "Air Defense Identification Zone": [
+        "IFR or Defense VFR plan", 
+        "Depart within 5 minutes of estimated departure time",
+        "Mode C transponder with Code",
+        "Two-way communication with ATC"
+    ],
+    "Washington DC Special Flight Rules Area": [
+        "30NM from DCA VOR, Sfc to FL180(not included)",
+        "Leesburg Maneuvering Area",
+        "Flight Restricted Zone (13-15NM of DCA VOR) - GA and VFR prohibited",
+        "FAA Special Awareness Training course at faasafety.gov",
+        "60NM, need training, 230knots",
+        "30NM, SFRA flight plan with entry and exit points in the 30NM ring - discrete transponder code - 180 knots" 
+    ],
+    "Intercept Procedures": "121.5, 7700"
 }
