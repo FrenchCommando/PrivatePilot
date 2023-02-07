@@ -1,0 +1,49 @@
+{
+    "Automatic dependent surveillance-broadcast": "ADS-B",
+    "Traffic information service-broadcast": "TIS-B",
+    "Flight information service-broadcast": "FIS-B",
+    "FIS-B": ["Weather", "temporary flight restrictions", "special use airspace"],
+    "ADS-B": {
+        "1090ES": ["1090MHz extended squitter", "must use above 18000MSL", "no FIS-B"],
+        "978 UAT": ["978 MHz universal access transceiver", "below 18000MSL", "FIS-B and TIS-B"],
+        "Both": "Out on 1090ES"
+    },
+    "Primary Radar": "Rotating Antenna",
+    "Secondary surveillance radar": ["air traffic control radar beacon system-ATCRBS", "Interrogator", "Code Signal, altitude, ground speed"],
+    "Transponder": [
+        "VFR-1200",
+        "IDENT",
+        "numbers 0 through 7 for one of 4096 codes",
+        {
+            "STBY": "no interrogations", 
+            "ON": "interrogations, no altitude", "ALT": "interrogation with altitude", 
+            "OFF": "power off", "GND": "Mode S interrogations, no Mode A or Mode C"
+        },
+        {
+            "Mode S": [
+                "Required for ADS-B Out",
+                "1090ES Mode S -> GPS data, position direction, velocity, vertical trend - at least once per second",
+                "Required for: Traffic Alert and Collision Avoidance"
+            ]
+        },
+        "7500-Hijacking",
+        "7600-Communication Failure",
+        "7700-Emergency-MAYDAY",
+        "Squawk",
+        "Inspection 24 calendar months"
+    ],
+    "Flight Service": [
+        "Notices to airmen (NOTAMs)",
+        "1-800-WX-BRIEF", "1800wxbrief.com",
+        "Adverse condition alerting service",
+        "122.2 MHz or local Flight Service Frequency",
+        "Search and Rescue: 30 minutes after ETA - must inform Flight Service if destination change or arrive at least 15 minutes later"
+    ],
+    "Control Tower Services": {
+        "Automatic Terminal Information Service": "ATIS",
+        "Clearance Delivery": "IFR clearance, VFR departure",
+        "Ground Control": "Clearance to taxi"
+    },
+    "Terminal radar approach control": ["Traffic Advisories", "Safety Alerts", "Vectors", "Sequencing", "Separation"],
+    "Air Route Traffic Control Centers": "IFR, Flight Following"
+}
