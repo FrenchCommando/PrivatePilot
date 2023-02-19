@@ -1,0 +1,118 @@
+{
+    "Forecast": {
+        "Persistence Forecast": "",
+        "Trend Forecast": "Moving Fronts",
+        "Climatological Forecast": "Historical Records of Region",
+        "Analogue Forecast": "Compare same situation",
+        "Meteorological Forecast": "Scientific knowledge",
+        "Numerical Weather Prediction": "Powerful computers - (5-10 minutes)"
+    },
+    "Data": {
+        "Observation": "World Meteorological Organization",
+        "Processing": "National Oceanic and Atmospheric Administration - National Weather Service",
+        "Dissemination": "Weather Forecast Offices"
+    },
+    "Meteorological Aerodrome Report": {
+        "Type of Report": {
+            "METAR": "aviation routine weather report",
+            "SPECI": "non-routine (special) aviation weather report"
+        },
+        "Station Identifier": "4-letter International Civil Aviation Organization - K, PA(Alaska), PH(Hawaii), CU,CW,CY,CZ(Canada)",
+        "Time of Report": "Day of the month, Zulu time",
+        "Modifier": {
+            "AUTO": "AO1 no precipitation discriminator, vs AO2",
+            "COR": "Correction"
+        },
+        "Wind": [
+            "Direction true north",
+            "Variable Direction: +6KT, +60deg -> 020V090",
+            "-6KT, VRB"
+        ],
+        "Visibility": {
+            "Prevailing visibility": "",
+            "Runway Visual Range": "R36L/2400FT, Variable: lowVhigh, outside USA in meters"
+        },
+        "Weather or Obstructions to vision": {
+            "Intensity or Proximity (qualify)": [
+                "-light, no sign is moderate, +heavy",
+                "Vicinity VC 5-10 SM, -10SM for precipitations",
+                "no VC if intensity"
+            ],
+            "Description (qualify)": {
+                "TS": "Thunderstorm",
+                "SH": "Shower(s)",
+                "FZ": "Freezing",
+                "BL": "Blowing",
+                "DR": "Low Drifting",
+                "MI": "Shallow",
+                "BC": "Patches",
+                "PR": "Partial"
+            },
+            "Precipitation": {
+                "RA": "Rain",
+                "DZ": "Drizzle",
+                "SN": "Snow",
+                "IC": "Ice Crystals",
+                "UP": "Unknown Precipitation",
+                "GR": "Hail (>1/4'')",
+                "GS": "Small Hail/Snow Pellets",
+                "SG": "Snow Grains",
+                "PL": "Ice Pellets"
+            },
+            "Obstruction to visibility": {
+                "FG": "Fog, visibility <5/8SM, (shallow fog MIFG, patches of fog BCFG, partial fog PRFG, +7SM)",
+                "BR": "Mist, 5/8-6SM",
+                "FU": "Smoke",
+                "HZ": "Haze",
+                "PY": "Spray",
+                "SA": "Sand",
+                "DU": "Dust",
+                "VA": "Volcanic Ash"
+            },
+            "Other weather phenomena": {
+                "SQ": "Squall",
+                "DS": "Duststorm",
+                "FC": "Funnel Cloud",
+                "+FC": "Tornado or Waterspout",
+                "SS": "Sandstorm",
+                "PO": "Dust/Sand Whirls"
+            }
+        },
+        "Sky Condition": {
+            "Amount": [
+                "Octas - eights",
+                "SKC manual, CLR automated",
+                "no detection above 12000feet",
+                "FEW 0-2/8",
+                "Scattered 3/8-4/8 SCT",
+                "Broken 5/8-7/8 BKN",
+                "Overcast OVC"
+            ],
+            "Height, Type, Vertical Stability": [
+                "AGL",
+                "Automated up to 3 layers up to 12000 feet",
+                "Human up to 6 layers",
+                "Human: TCU towering cumulus clouds, CB cumulonimbus clouds",
+                "Ceiling: lowest broken or overcast",
+                "VFR 3SM and 1000feet",
+                "Obscuration: VV006 is 600feet - not entire sky in remarks"
+            ]
+        },
+        "Temperature - Dewpoint": [
+            "Celsius",
+            "M for minus"
+        ],
+        "Altimeter": "A, inches of mercury",
+        "Remarks": [
+            "B beginning: TSB24",
+            "E ending time",
+            "SLP sea level pressure"
+        ]
+    },
+    "Radar Weather Reports (SDs)": [
+        "precipitation, thunderstorms",
+        "35 minutes past each hour",
+        "hundreds of feet MSL"
+    ],
+    "Pilot weather reports": "PIREPs"
+}
