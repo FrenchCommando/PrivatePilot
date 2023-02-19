@@ -1,0 +1,39 @@
+[
+    "Aeronautical Charts",
+    "Chart Supplements",
+    "Airport/Facility Directory",
+    "Electronic Flight Bag",
+    {
+        "Notices to Airmen": {
+            "NOTAM(D)": "Distant NOTAM",
+            "FDC NOTAM": "Issued by National Flight Data Center - regulatory information such as TFR or amendment to aeronautical charts"
+        },
+        "Notices to Airmen Publication" : "NTAP, every 28 days, permanent NOTAM(D) and FDC NOTAM between publication cycles"
+    },
+    {
+        "Code of Federal Regulations":
+        {
+            "Federal Aviation Regulations": {
+                "Under subject title 14": "Aeronautics and Space",
+                "FAR Part 61": "Certification: Pilots and Flight Instructors",
+                "FAR Part 91": "General Operating and Flight Rules",
+                "NTSB 830": "Rules pertaining to the Notification and Reporting of Aircraft accidents or incidents and overdue aircraft, and preservation of aircraft wreckage, Mail, Cargo, and Records"
+            }
+        },
+        "Federal Register": "Notices of Proposed Rulemaking (NPRM)",
+        "Aeronautical Information Manual (AIM)": [
+            "Information and ATC procedures for VFR and IFR operations in the National Airspace System",
+            "1 Navigation Aids",
+            "2 Aeronautical Lighting and Other Airport Visual Aids",
+            "3 Airspace",
+            "4 Air traffic Control",
+            "5 Air traffic procedures",
+            "6 emergency procedures",
+            "7 safety of flight",
+            "8 medical facts for pilots",
+            "9 aeronautical charts and related publications",
+            "10 helicopter operations"
+        ],
+        "Advisory Circulars (ACs)": "Nonregulatory guidance and information"
+    }
+]

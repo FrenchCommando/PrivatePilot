@@ -1,0 +1,56 @@
+{
+    "VeryHighFrequency": "118.0MHz - 135.975MHz - line of sight",
+    "Common Traffic Advisory Frequency": "CTAF",
+    "Universal Communications": "Privately Owned - 122.7, 122.725, 122.975, 123.0",
+    "Automated UNICOM": "automated weather, airport advisories, radio check",
+    "Local Airport Advisory Service": "LAA, 10SM, FSS on ground, CTAF 123.6MHz",
+    "MULTICOM": "122.9MHz",
+    "Automated Surface Observing System": "ASOS",
+    "Automated Weather Observing System": "AWOS",
+    "Lost Communications Procedures": [
+        "Transponder 7600",
+        "Remain outside of class D until you determine the direction and flow of traffic",
+        "Join Traffic Pattern",
+        "Maintain Visual Contact with Tower to receive signals",
+        "Acknowledge tower transmissions or light signals by rocking your wings and at night by blinking landing lights or navigation lights"
+    ],
+    "Light Signals": {
+        "Steady Green": "G: Cleared for takeoff, F: Cleared to land",
+        "Flashing Green": "G: Cleared to taxi, F: Return for landing",
+        "Steady Red": "G: Stop, F: Give way to other aircraft and continue circling",
+        "Flashing Red": "G: Taxi clear of landing area in use, F: Airport unsafe - do not land",
+        "Flashing White": "G: Return to starting point on airport, F: (not assigned)",
+        "Alternating Ref and Green": "G/F: Extreme caution"
+    },
+    "Emergency": {
+        "Distress": [
+            "Serious or Imminent danger",
+            "Immediate Assistance",
+            "Fire, Mechanical failure, structural failure"
+        ],
+        "Urgency": [
+            "Doubtful about position, fuel endurance, weather, condition that affect flight safety"
+        ],
+        "121.5MHz": [
+            "7700 transponder",
+            "MAYDAY-MAYDAY-MAYDAY",
+            "PAN-PAN, PAN-PAN, PAN-PAN"
+        ]
+    },
+    "FiveC": [
+        "Climb",
+        "Communicate",
+        "Confess",
+        "Comply",
+        "Conserve"
+    ],
+    "Emergency locator transmitters": [
+        "ELT",
+        "243MHz and 406MHz, older 121.5MHz",
+        "at least 48hours",
+        "with manual activation",
+        "replaced or recharged after 1/2 battery useful life or one cumulative hour",
+        "test in a screened room or 5 minutes after the hour, for no longer than 3 audible sweeps",
+        "no airborne test"
+    ]
+}
