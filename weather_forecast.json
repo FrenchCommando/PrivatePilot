@@ -114,5 +114,85 @@
         "35 minutes past each hour",
         "hundreds of feet MSL"
     ],
-    "Pilot weather reports": "PIREPs"
+    "Pilot weather reports": "PIREPs",
+    "Printed Weather Forecasts - Weather Forecast Offices": {
+        "Terminal Aerodrome Forecast": {
+            "24-hour period": [
+                "0000Z", "0600Z", "1200Z", "1800Z"
+            ],
+            "Type of Forecast": {
+                "TAF": "routine",
+                "TAF AMD": "Amended",
+                "COR": "Corrected",
+                "RTD": "Delayed"
+            },
+            "Station Identifier and Issuance Date/Time": "KLFK 221555Z",
+            "Valid Period": [
+                "Normally 24 hours",
+                "facility closed after 0500Z - NIL AMD NOT SKED AFT 0500Z"
+            ],
+            "Forecast": [
+                "P6SM - expected visibility greater than 6 statute miles",
+                "Wind shear - WS015/30045KT for 1500 feet"
+            ],
+            "Forecast Change Groups": ["FM", "BECMG - gradual about 2 hours", "NSW - no significant weather"],
+            "Temporary Conditions": "TEMPO",
+            "Probability Forecast": "PROB30 PROB49"
+        },
+        "Winds and Temperatures aloft forecast": [
+            "FD",
+            "9 levels - between 3000 and 39000 feet",
+            "not within 1500feet of station elevation",
+            "not temperature for 3000 level or within 2500feet of station elevation",
+            "2635-08, 260degrees, 35knots, -8C",
+            "9900: light and variable winds, less than 5 knots",
+            "minus sign omitted for 24000+ because always negative",
+            "Winds 100-199knots: add 50 to the 2digit direction, subtract 100 from velocity"
+        ]
+    },
+    "Severe Weather Reports and Forecast": {
+        "National Hurricane Center": "Miami, Florida - hurricane advisories",
+        "National Severe Storms Forecast Center": "Kansas City, Missouri - special reports, forecasts for severe weather conditions",
+        "Hurricane Advisory": "WH: 300NM+ offshore but threatens coast line",
+        "Convective Outlook": "AC: Day1 Day2 Day3, severe thunderstorms: winds 50kts+, hail 3/4in+ diameter, tornadoes",
+        "Severe Weather Watch Bulletin": "WW",
+        "Alert Severe Weather Watch": "AWW",
+        "Airman's meteorological information": [
+            "AIRMETs (WAs)",
+            "every 6 hours",
+            "moderate icing", 
+            "moderate turbulence", 
+            "sustained winds of 30kts+ at the surface", 
+            "ceilings less than 1000feet / visibility less than 3SM over 50% of an area",
+            "extensive mountain obscurement",
+            "Sierra: IFR conditions, mountain obscuration",
+            "Tango: turbulence, strong surface winds, low level wind shear",
+            "Zulu: icing, freezing levels",
+            "Numbered sequentially over a day"
+        ],
+        "Significant meteorological information SIGMET (WSs)": [
+            "severe icing",
+            "severe or extreme turbulence", 
+            "clear air turbulence(CAT)",
+            "duststorms", 
+            "sandstorms lowering visibility to less than 3 miles",
+            "volcanic ash",
+            "unscheduled - valid for 4 hours, 6 hours for hurricanes",
+            "excluding AIRMET, uses November through Yankee"
+        ],
+        "Convective SIGMET (WSTs)": [
+            "tornadoes",
+            "lines of thunderstorms",
+            "thunderstroms over a wide area",
+            "embedded thunderstorms",
+            "hail greater than or equal to 3/4in diameter",
+            "and/or wind gusts to 50knots or greater",
+            "observation and forecast or simply forecast",
+            "eastern(E), central(C), western(W)",
+            "numbered sequentially for each area (01-99) each day",
+            "bulletins each 55 minutes past each hour unless special bulletin",
+            "valid for 2 hours from time of issuance or until superseded by next hourly issuance",
+            "criteria not met: CONVECTIVE SIGMET...NONE"
+        ]
+    }
 }
