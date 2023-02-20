@@ -1,0 +1,78 @@
+{
+    "Atmosphere": [
+        "Troposphere",
+        "Tropopause - 36000feet",
+        "Stratosphere - 160000 feet", "Mesophere", "Thermosphere"
+    ],
+    "Composition": "78% nitrogen, 21% oxygen, 1% other including carbon dioxide and argon - 0 to 4% of water vapor",
+    "Circulation Pattern": "PolarCell - Ferrel Cell - Hadley Cell",
+    "Sea-Breeze": "10-20knots, 1500-3000feetAGL",
+    "Land-Breeze": "1000-2000AGL, 5-100NM inland",
+    "ValleyBreeze": "Upslope flow, 5-20knots, max a few hundred feet above surface",
+    "MountainBreeze": "prior to sunrise, 5-15knots, 25 knots, max: mouth of the valley",
+    "Katabatic winds": [
+        "Cold: ice, snow - 100+knots, bora(Croatia), mistral(Rhone France), Columbia Gorge wind (northwestern US)",
+        "Warm: warm air across mountain range -> downwind/lee, +20C in an hour, 20/50knots to 100, Chinook (Rocky Mountains), foehn (Alps), Santa Ana (southern California)"
+    ],
+    "Stability": {
+        "LapseRate": "2C / 3.5F per 1000feet",
+        "Adiabatic dry lapse rate": "3C / 5.4F per 1000feet",
+        "Moist Adiabatic lapse rate": "1.1-2.8C / 2-5F per 1000 feet",
+        "Temperature inversion": ""
+    },
+    "Moisture": {
+        "State": "Evaporation, condensation, sublimation, deposition, melting, freezing",
+        "Humidity": "",
+        "DewPoint": "unsaturated air 5.4F, dewpoint 1F -> converges 4.4F(2.5C):  80F/62F : 4000AGL"
+    },
+    "Clouds": {
+        "Types": "low, middle, high, with vertical development",
+        "Stratus": "Sheet",
+        "Cumulus": "Heap, puffy",
+        "Cirrus": "ringlet, wispy",
+        "Nimbus": "Violent Rain",
+        "Low":[
+            "surface - 6500AGL",
+            "Stratus, stratocumulus, nimbostratus",
+            "ground fog, radiation fog, advection fog, upslope fog, steam fog"
+        ],
+        "Middle": [
+            "6500-20000AGL",
+            "altostratus, altocumulus"
+        ],
+        "High": [
+            "above 20000AGL",
+            "cirrus, cirrostratus, cirrocumulus"
+        ],
+        "Vertical Development": [
+            "Cumulus, towering cumulus, cumulonimbus",
+            "embedded: obscured by other cloud formations"
+        ]
+    },
+    "Fronts": [
+        "Cold, warm, stationary, occluded(cold and warm)",
+        "Discontinuities: temperature, wind, pressure",
+        "Warm front occlusion, cold front occlusion"
+    ],
+    "Thunderstorms": [
+        "Severe: 50+knots, hail 3/4in",
+        "squall line",
+        "cumulus, mature, dissipating",
+        "turbulence, shear zone, lightning, hail, tornadoes, waterspout"
+    ],
+    "Turbulence": [
+        "Low-level turbulence (LLT) - below 15000MSL",
+        "Mechanical turbulence, convective turbulence, frontal turbulence, wake turbulence, jet engine blast",
+        "Clear air turbulence(CAT) +15000feet, near jet stream",
+        "Mountain waves - rotor, rotor cloud, cap cloud, lenticular cloud",
+        "Low-level wind shear alert systems (LLWAS), 15+knots, 10 seconds",
+        "Terminal Doppler Weather Radar (TDWR)"
+    ],
+    "Ice": [
+        "Rime Ice(-15, -20C), Clear Ice(0,-10C), mixed ice(-10, -15C)"
+    ],
+    "Restriction to Visibility": [
+        "Haze - Smoke - Smog - Dust"
+    ],
+    "Volcanic Ash": ""
+}
