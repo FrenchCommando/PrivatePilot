@@ -194,5 +194,134 @@
             "valid for 2 hours from time of issuance or until superseded by next hourly issuance",
             "criteria not met: CONVECTIVE SIGMET...NONE"
         ]
-    }
+    },
+    "Graphic Weather Products": {
+        "Analysis": {
+            "Aviation Digital Data Service": "ADDS",
+            "Surface Analysis Chart": [
+                "Surface Weather Map",
+                "Every 3 hours"
+            ],
+            "Weather Depiction Chart": [
+                "From METAR data",
+                "To determine IFR VFR",
+                "Every 3 hours"
+            ],
+            "Radar Charts and Images": [
+                "Composite radar image combines echoes from multiple radar sites",
+                "Only precipitation (frfozen or liquid), not cloud formation"
+            ],
+            "Satellite Weather Pictures": [
+                "visible or infrared",
+                "Geostationary operational environmental satellites (GOES) - 22238 miles above equator",
+                "NOAA POES around poles - 530miles above earth - for 50 degrees latitude",
+                "visible for cloud shape and texture",
+                "IR for heat radiation, determine cloud height",
+                "Every 30 minutes except nighttime no visible light"
+            ],
+            "Constant pressure analysis chart": [
+                "twice daily - 1200Z, 0000Z",
+                "850millibar, 5000MSL, bad weather, thunderstroms, rain, scow, overcast, heavy cloudiness",
+                "700millibar, 10000MSL, wind conditions for heavy clouds and rain, only well-developed fronts",
+                "500millibar, 18000MSL, average troposphere, longrange flights at FL180",
+                "300millibar, 30000MSL - 250millibar, 34000MSL - 200millibar, 39000MSL - high altitude flight",
+                "isotherms - equal temperature",
+                "isotachs - equal wind velocity (only for 300-, 250-, 200-)",
+                "high winds 40kts intervals starting at 70kts"
+            ]
+        },
+        "Forecast": {
+            "Significant Weather Prognostic Charts (SIGWX)": [
+                "Aviation Weather Center (AWC)",
+                "surface, low-level, mid-level, high-level",
+                "6 - 48 hours / surface up to 7 days",
+                {
+                    "US low-level significant weather prognostic chart" : [
+                        "heavy dashed line: turbulence, in hundreds feet MSL, top and base",
+                        "dashed lines: freezing levels 4000foot intervals - zigzag line means surface"
+                    ],
+                    "Surface": [
+                        "Front and pressure centers",
+                        "Precipitations"
+                    ],
+                    "Mid-, high-level SIGWX PROG Charts": [
+                        "Mid: 10000MSL to FL450",
+                        "High: FL250 to FL630",
+                        "thunderstorms, tropical cyclones, squall lines, moderate, greater turbulence, widespread duststorm and sandstorm, tropopause heights, location of jetstreams, volcanic activity",
+                        "Tropopause level omitted when above 63000ft MSL",
+                        "Jet stream maximum winds of 130knots",
+                        "Thunderstorms: ISOL(<1/8 coverage), OCNL(1/8-4//8), FRQ(5/8 to 8/8)"
+                    ]
+                }
+            ],
+            "Convective Outlook Chart": [
+                "Day1: outlook for general and severe thunderstorm activity - 5 times daily, starting 1200Z",
+                "Day2: areas of general and severe storms",
+                "Day3: only severe thunderstorms",
+                "Arrows: thunderstorms are on the right",
+                "SLGT(slight), MRGL(marginal) : low coverage",
+                "High risk: moderate(MDT), enhanced(ENH), high(HIGH)"
+            ],
+            "National Convective Weather Forecast(NCWF)": [
+                "near real-time, high resolution - current and one-hour extrapolated - selected hazardous convective conditions",
+                "WSR-88D weather radar",
+                "echo intensity (four levels), cloud tops, lightning frequency, direction of cell movement",
+                "use in conjonction with convective SIGMET",
+                "every five minutes"
+            ],
+            "Graphic winds and temperatures aloft": [
+                "not shown if less than 1500feet above station",
+                "degrees Celsius for altitude more than 2500feet above station"
+            ],
+            "Current and Forecast Icing Products": [
+                "Current Icing Product (CIP): sensor + numerical weather prediction (NWP) - hourly 3D picture of icing risk",
+                "Forecast Icing Product (FIP): NWP, probability of icing"
+            ],
+            "Ceiling and Visibility Analysis (CVA)": [
+                "Every 5 minutes"
+            ],
+            "Volcanic Ash Forecast Transport and Dispersion Chart (VAFTAD)": [
+                "National Centers for Environmental Prediction (NCEP)",
+                "Forecast over 6-, 12-hour, beginning 6 hours after eruption",
+                "Ash location, and relative concentration: FL350/FL550, FL200/FL350, SFC/FL200 - SFC/FL550"
+            ]
+        }
+    },
+    "Information": [
+        "Flight Service - 1-800-wx-brief - 1800wxbrief.com",
+        "standard briefing - abbreviated briefing - outlook briefing (6+ hours)",
+        "Adverse Conditions Alerting Service (ACAS)",
+        "Telephone information briefing service (TIBS)",
+        "Direct User Access Terminal System (DUATS)",
+        "National Weather Service (NWS)",
+        "National Oceanic and Atmospheric Administration (NOAA) - Department of Commerce",
+        "National Centers for Environmental Prediction (NCEP)",
+        "Aviation Weather Center (AWC)",
+        "Air route traffic control centers (ARTCC) issues Center Weather Advisory(CWA) : adverse conditions within 2 hours - 150 miles all but emergency frequencies - 50miles for local and approach",
+        "Hazardous in-flight weather advisory service (HIWAS) - H in navaid box for VOR",
+        {
+            "Automated Weather observing system (AWOS)": {
+                "AWOS-A": "only altimeter setting",
+                "AWOS-1": "+measure and report wind speed, direction, gusts, temperature, dewpoint",
+                "AWOS-2": "+visibility information",
+                "AWOS-3": "cloud and ceiling data"
+            },
+            "Automated surface observing system (ASOS)": [
+                "at airports, FAA+NWS",
+                "primary source for surface weather information",
+                "minute-by-minute",
+                "AWOS-3 + variable cloud heights, variable visibility, rapid pressure changes, precipitation (type, intensity, accumulation, beginning/ending), wind shifts, peak winds",
+                "AO2 difference between liquid and frozen precipitations (not AO1)"
+            ],
+            "Automated Weather Sensor System (AWSS)": [
+                "Same as ASOS, but FAA only"
+            ],
+            "Range": "25 miles, 10000AGL"
+        },
+        "Transcribed weather broadcast (Alaska only)",
+        "DataLink Weather (FIS-B only)",
+        "NEXRAD: Weather Surveillance Radar-1988 Doppler(WSR-88D) - up to 5 minutes old",
+        "Airborne weather Radar: X-Band(9333GHz, 0.03mm, high resolution, hard to pass through first layer), C-band(5.44GHz)",
+        "Lightning Detection Equipment"
+    ]
 }
